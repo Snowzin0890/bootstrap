@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hDC Agency - a sua agencoa web</title>
+    <title>Impla</title>
     <!--Fonte-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,11 +32,70 @@
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top">
                 <a href="#" class="navbar-brand">
-                    <img src="img/hdcagency_logo.svg" alt="hDc Agency" id="logo"> hDC Agency
+                    <img src="img/impla-logo-nobg.png" alt="Impla" id="logo">IMPLA
                 </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbar-links" aria-controls="navbar-link" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="" class="nav-item nav-link" id="about-menu">Sobre</a>
+                        <a href="" class="nav-item nav-link" id="services-menu">Servicos</a>
+                        <a href="" class="nav-item nav-link" id="team-menu">Time</a>
+                        <a href="" class="nav-item nav-link" id="portifolio-menu">Projetos</a>
+                        <a href="" class="nav-item nav-link" id="contact-menu">Contato</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
+    <main>
+        <div class="container-fluid">
+            <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#mainSlider" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#mainSlider" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Quer tirar um e-commerce?</h2>
+                            <p>Conte conosco, temos mais de 30 lojas no portifolio.</p>
+                            <a href="#" class="main-btn">Ver portifolio</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de software">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Esta querendo tirar o projeto do papel?</h2>
+                            <p>Nossa equipe de Engenharia de software esta pronta para lhe atender.</p>
+                            <a href="#" class="main-btn">Entre em contato</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner3.png" class="d-block w-100" alt="Manutencao em software">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Esta buscando manutencao no seu software?</h2>
+                            <p>A hDC conta com engenheiros altamente qualificados para resolver seu problema.</p>
+                            <a href="#" class="main-btn">Entre em contato</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </main>
     <script src="js/scripts.js"></script>
 </body>
 </html>

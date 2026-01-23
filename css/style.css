@@ -1,0 +1,121 @@
+/*Paleta de cores*/
+:root{
+    --cor01 : #1C2C40;
+    --cor02 : #C5D4DC;
+    --cor03 : #d8d8cf;
+    --cor04 : #c8b9a6;
+    --cor05 : #a68365;
+}
+
+/*Gerais*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    color: #444;
+    font-size: 14px;
+}
+
+/*Barra de navegacao*/
+header, .navbar{
+    background-color: var(--cor01);
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#navbar-links a{
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+/*Slider*/
+#mainSlider{
+    margin-top: 0;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0 5px;
+}
+
+.carousel-indicators .active{
+    background-color: var(--cor01);
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-caption h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.carousel-caption p{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.main-btn{
+    background-color: var(--cor01);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.main-btn:hover{
+    background-color: var(--cor05);
+    color: white;
+    text-decoration: none;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption{
+    top: 30%;
+}
