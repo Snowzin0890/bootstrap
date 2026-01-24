@@ -119,3 +119,46 @@ header, .navbar{
 #mainSlider .carousel-caption{
     top: 30%;
 }
+
+/*Sobre a empresa*/
+#about-area{
+    background-color: #f9f9f9;
+}
+
+.main-title{
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid #333;
+    width: 20%;
+    position: absolute;
+    top: 60px;
+    left: 40%;
+}
+
+.about-title{
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li{
+    line-height: 30px;
+}
+
+#about-list i{
+    color: var(--cor05);
+    margin-right: 15px;
+}
