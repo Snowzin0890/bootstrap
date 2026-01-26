@@ -220,6 +220,6 @@ header, .navbar{
     height: 350px;
 }
 
-#btn-mais{
+#btn-mais > button{
     text-align: center;
 }
