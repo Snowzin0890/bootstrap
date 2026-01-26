@@ -219,3 +219,7 @@ header, .navbar{
 #team-area .container .card > img{
     height: 350px;
 }
+
+#btn-mais{
+    text-align: center;
+}
