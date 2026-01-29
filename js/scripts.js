@@ -109,3 +109,11 @@ $(document).ready(function(){
     },250)
 
 })
+
+function mostrar(){
+    
+    let cardview = document.getElementByClassName('desativo')
+
+    cardview.style.display = 'flex'
+    
+}
