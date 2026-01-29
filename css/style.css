@@ -225,3 +225,6 @@ header, .navbar{
     margin: 10px 0;
 }
 
+.desativo > .container{
+    padding: 0;
+}
