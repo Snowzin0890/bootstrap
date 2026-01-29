@@ -112,7 +112,7 @@ $(document).ready(function(){
 
 function mostrar(){
     
-    let cardview = document.getElementByClassName('desativo')
+    let cardview = document.getElemenstByClassName('desativo')
 
     cardview.style.display = 'flex'
     
