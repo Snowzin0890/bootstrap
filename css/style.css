@@ -224,3 +224,7 @@ header, .navbar{
     text-align: center;
     margin: 20px 0;
 }
+
+.desativo{
+    margin: 0;
+}
