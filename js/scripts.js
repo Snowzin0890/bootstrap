@@ -111,9 +111,23 @@ $(document).ready(function(){
 })
 
 function mostrar(){
-    
-    let cardview = document.getElementsByClassName('desativo')
+    const btn = document.querySelector('#btn-mais button')
+    const cols = Array.from(document.querySelectorAll('#team-area .container .row > .col-md-3'))
 
-    cardview.style.display = 'flex'
-    
+    // Consider first 4 visible; others are the ones to toggle
+    const extras = cols.slice(4)
+
+    // If any extra is still hidden, show them; otherwise hide them
+    const anyHidden = extras.some(col => col.classList.contains('desativo'))
+
+    if(anyHidden){
+        extras.forEach(col => col.classList.remove('desativo'))
+        btn.innerHTML = 'Veja menos <i class="bi-caret-up-fill"></i>'
+    }else{
+        extras.forEach(col => col.classList.add('desativo'))
+        btn.innerHTML = 'Veja mais <i class="bi-caret-down-fill"></i>'
+        // bring button into view so user sees the collapse
+        btn.scrollIntoView({behavior: 'smooth', block: 'center'})
+    }
+
 }
