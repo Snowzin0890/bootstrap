@@ -165,6 +165,8 @@ function mostrar(){
 
 // Validação de formulário
 document.addEventListener('DOMContentLoaded', function(){
+
+    // Formulário de contato
     const form = document.querySelector('#contact-form');
     if(form){
         form.addEventListener('submit', function(e){
@@ -190,6 +192,18 @@ document.addEventListener('DOMContentLoaded', function(){
             // Se passou na validação, mostrar mensagem de sucesso
             alert('Obrigado! Sua mensagem foi enviada com sucesso!');
             form.reset();
+        });
+    }
+
+    // Newsletter - enviar e permanecer na página
+    const newsletterForm = document.querySelector('#newsletter-form');
+    if(newsletterForm){
+        newsletterForm.addEventListener('submit', function(e){
+            // Não prevenir o submit, deixar enviar normalmente para o iframe
+            setTimeout(function(){
+                alert('Obrigado por se inscrever! Você receberá nossas novidades e dicas de saúde bucal.');
+                newsletterForm.reset();
+            }, 500);
         });
     }
 });
