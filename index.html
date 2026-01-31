@@ -36,7 +36,7 @@
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top">
                 <a href="#" class="navbar-brand">
-                    <img src="img/impla-logo-nobg.png" alt="Impla" id="logo">IMPLA
+                    <img src="img/impla-logo-nobg.png" alt="Impla" id="logo"> IMPLA
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" 
                     data-target="#navbar-links" aria-controls="navbar-link" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,12 +44,12 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a href="" class="nav-item nav-link" id="home-menu">Home</a>
-                        <a href="" class="nav-item nav-link" id="about-menu">Sobre</a>
-                        <a href="" class="nav-item nav-link" id="services-menu">Servicos</a>
-                        <a href="" class="nav-item nav-link" id="team-menu">Time</a>
-                        <a href="" class="nav-item nav-link" id="portifolio-menu">Projetos</a>
-                        <a href="" class="nav-item nav-link" id="contact-menu">Contato</a>
+                        <a href="#" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="#" class="nav-item nav-link" id="about-menu">Sobre</a>
+                        <a href="#" class="nav-item nav-link" id="services-menu">Servicos</a>
+                        <a href="#" class="nav-item nav-link" id="team-menu">Time</a>
+                        <a href="#" class="nav-item nav-link" id="portifolio-menu">Projetos</a>
+                        <a href="#" class="nav-item nav-link" id="contact-menu">Contato</a>
                     </div>
                 </div>
             </nav>
@@ -101,14 +101,14 @@
                 </button>
             </div>
             <!--Sobre a empresa-->
-            <div class="about-area">
+            <div id="about-area" class="about-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <h3 class="main-title">Sobre a Impla Odontologia</h3>
                         </div>
                         <div class="col-md-6">
-                            <img src="img/interior-impla.jpg" class="img-fluid" alt="Agencia hDC">
+                            <img src="img/interior-impla.jpg" class="img-fluid" alt="Impla Odontologia" loading="lazy">
                         </div>
                         <div class="col-md-6">
                             <h3 class="about-title">Uma clinica que se preocupa com o seu sorriso</h3>
@@ -128,7 +128,7 @@
                 </div>
             </div>
             <!--Servicos da empresa-->
-            <div class="service-area">
+            <div id="services-area" class="service-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -207,7 +207,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="card">
-                                <img src="img/ana.jpeg" class="card-img-top" alt="time da empresa">
+                                <img src="img/ana.jpeg" class="card-img-top" alt="time da empresa" loading="lazy">
                                 <div class="card-body">
                                     <h5 class="card-title">Ana</h5>
                                     <p card-text>Sua funcao no time</p>
@@ -346,8 +346,127 @@
                     </div>
                 </div>
             </div>
+            <!--Trabalhe conosco-->
+            <div id="apply-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 apply-box" id="company-img"></div>
+                        <div class="col-md-6 apply-box" id="pattern-img">
+                            <h4>Gosta de desafios?</h4>
+                            <p>Temos várias posições abertas, entre elas: Software Engineer, UI/UX Designer, Project Manager e mais.</p>
+                            <p>Clique no botão abaixo e confira os benefícios e as posições em aberto.</p>
+                            <p>Aqui você terá a chance de trabalhar com as melhores tecnologias e os profissionais mais capacitados.</p>
+                            <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfólio -->
+            <div id="portfolio-area">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                    <h3 class="main-title">Conheça nossos projetos</h3>
+                    </div>
+                    <div class="col-md-12" id="filter-btn-box">
+                    <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+                    <button class="main-btn filter-btn" id="dev-btn">Desenvolvimento</button>
+                    <button class="main-btn filter-btn" id="dsg-btn">Design</button>
+                    <button class="main-btn filter-btn" id="seo-btn">SEO</button>
+                    </div>
+                    <div class="col-md-4 project-box dev">
+                    <img src="img/proj1.jpg" class="img-fluid" alt="Projeto 1">
+                    </div>
+                    <div class="col-md-4 project-box dsg">
+                    <img src="img/proj2.jpg" class="img-fluid" alt="Projeto 2">
+                    </div>
+                    <div class="col-md-4 project-box seo">
+                    <img src="img/proj3.jpg" class="img-fluid" alt="Projeto 3">
+                    </div>
+                    <div class="col-md-4 project-box dev">
+                    <img src="img/proj4.jpg" class="img-fluid" alt="Projeto 4">
+                    </div>
+                    <div class="col-md-4 project-box dsg">
+                    <img src="img/proj5.jpg" class="img-fluid" alt="Projeto 5">
+                    </div>
+                    <div class="col-md-4 project-box seo">
+                    <img src="img/proj6.jpg" class="img-fluid" alt="Projeto 6">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Newsletter -->
+            <div id="news-area">
+                <div class="container">
+                <div class="col-md-12">
+                    <h3 class="main-title">Fique por dentro das novidades</h3>
+                </div>
+                <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre desenvolvimento de software</p>
+                <form action="">
+                    <input type="text" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+                    <input type="submit" id="news-btn" value="Inscrever">
+                </form>
+                </div>
+            </div>
+            <!-- Call to Action -->
+            <div id="call-area">
+                <div class="container">
+                    <div class="row">
+                    <p>Deseja fazer um orçamento sem compromisso?</p>
+                    <button class="main-btn" id="call-btn">Orçar</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div id="contact-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <h3 class="main-title">Entre em contato conosco</h3>
+                </div>
+                <div class="col-md-4 contact-box">
+                <i class="bi bi-phone"></i>
+                <p><span class="contact-tile">Ligue para:</span> (48)99999-9999</p>
+                <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
+                </div>
+                <div class="col-md-4 contact-box">
+                <i class=" bi bi-envelope"></i>
+                <p><span class="contact-tile">Envie um email:</span> contato@hdcagency.com.br</p>
+                </div>
+                <div class="col-md-4 contact-box">
+                <i class="bi bi-geo-alt"></i>
+                <p><span class="contact-tile">Venha tomar um café:</span> Rua Lorem Ipsum - 1314</p>
+                </div>
+                <div class="col-md-6" id="msg-box">
+                <p>Ou nos deixe uma mensagem:</p>
+                </div>
+                <div class="col-md-6" id="contact-form">
+                <form action="">
+                    <input type="text" class="form-control" placeholder="E-mail" name="email">
+                    <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                    <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                    <input type="submit" class="main-btn">
+                </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="copy-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <p>Desenvolvido por <a href="https://github.com/Snowzin0890" target="_blank">Tommaso Valverde</a> &copy; 2026</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <!--Scripts personalizados-->
     <script src="js/scripts.js"></script>
 </body>
 </html>
