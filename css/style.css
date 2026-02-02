@@ -522,7 +522,7 @@ header, .navbar{
 }
 
 #copy-area .container a {
-  font-weight: bold;
+  font-weight: bolder;
   color: var(--cor05);
   text-decoration: none;
   transition: 0.3s;
