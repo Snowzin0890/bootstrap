@@ -220,7 +220,7 @@ header, .navbar{
 }
 
 #team-area .container .card{
-    border: 2px solid var(--cor05);
+    border: 2px solid black;
     margin-bottom: 30px;
     transition: 0.3s;
 }
